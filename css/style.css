@@ -1,0 +1,154 @@
+/*
+Nota::
+Rosado:#F3A69D
+color2:#f6bb8d
+Anaranjado:#f8d7ae
+*/
+@font-face {
+    font-family: 'cream';
+    src: url(../assets/Pacifico-Regular.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*header
+.barrademenu {
+    background-color:#f8d7ae;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 35px #0001;
+    
+    fixed
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}*/
+
+
+.logo
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding:12px 26px;
+    margin: 0 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 30px;
+    border-radius: 2px;
+    text-transform: uppercase;
+
+}
+
+li a.active,li a:hover{
+    background: #F3A69D;
+    transition: .5s;
+}
+
+@media screen and (max-width: 988px)
+ {
+   .primeraimagen
+   {width: 600px;
+    height: 500px !important;
+margin-bottom: 20px;} 
+  }
+/* main*/
+.contenedor{
+    text-align: center;
+}
+    
+
+.title{
+    font-family: 'cream';
+    color: #F3A69D;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px
+    }
+.primeraimagen{
+height: 1000px;
+}
+.p{
+    font-size: 20px
+}
+
+.pastelcontenido{
+    height: 500px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+/*.pastelcontenido3{
+    height: 500px;
+    width: 400px;
+}
+.pastelcontenido4{
+    height: 500px;
+    width: 400px;
+}
+/*footer*/
+footer{
+    background-color: #f8d7ae;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    
+}
+/*productos*/
+.productos{
+flex-direction: column;
+align-items:center;
+padding-top: 70px;
+
+}
+.productos h3{
+    font-family: 'cream';
+    color: #F3A69D;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.parrafo{
+    font-size: 1em;
+}
+.productos--cont{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+
+}
+.item-img{
+    width: 410px;
+    height: 470px;
+    overflow: hidden;
+    padding: 30px;
+}
+.item-img img{
+width: 100%;
+}
+.item-img h4 {
+    font-size: 10px;
+}
+.imgproducto{
+    max-width: 350px;
+    height: 310px;
+}
