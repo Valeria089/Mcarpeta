@@ -49,7 +49,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-weight: 900;
     font-size: 18px;
     padding: 30px;
@@ -57,19 +57,11 @@ nav ul li a {
     text-transform: uppercase;
 
 }
-
 li a.active,li a:hover{
     background: #F3A69D;
     transition: .5s;
 }
 
-/*@media screen and (max-width: 988px)
- {
-   .primeraimagen
-   {width: 600px;
-    height: 500px !important;
-margin-bottom: 20px;} 
-  }
 /* main*/
 .contenedor{
     text-align: center;
@@ -81,7 +73,7 @@ margin-bottom: 20px;}
     color: #F3A69D;
     font-size: 50px;
     margin-bottom: 20px;
-    margin-top: 20px
+    margin-top: 20px;
     }
 .primeraimagen{
 height: 1000px;
@@ -152,6 +144,104 @@ width: 100%;
     max-width: 350px;
     height: 310px;
 }
+
+/*NOSOTROS*/
+.quienessomos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.equipo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.equipo2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+ .parrafosval{
+    display: flex;
+    background-color: #fbe1cd;
+ }
+ .p1{
+    margin: 20px;
+    margin-bottom: 40px;
+    
+
+ }
+.p2{
+    margin: 20px;
+    margin-bottom: 40px;
+
+}
+.p3{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.contenedorequipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipo2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 650px;
+    height: 600px;
+}
+.title1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    font-family: 'cream';
+    color: #F3A69D;
+    margin-left: 80px
+}
+/*PROMOCIONES*/
+
+.promociones{
+    flex-direction: column;
+    align-items:center;
+    padding-top: 30px;
+    
+    }
+
+
+.promociones--cont{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+
+}
+.prom-img{
+    width: 410px;
+    height: 470px;
+    overflow: hidden;
+    padding: 30px;
+}
+.prom-img img{
+width: 100%;
+}
+
+.imgpromo{
+    max-width: 350px;
+    height: 310px;
+}
+
+.ppromo {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 @media screen and (max-width: 988px)
  {
    .primeraimagen
@@ -159,3 +249,43 @@ width: 100%;
     height: 500px !important;
 margin-bottom: 20px;} 
   }
+  
+  @media screen and (max-width: 988px){
+    .equipo{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    }
+  }
+  @media screen and (max-width: 988px)
+  {
+    .contenedorequipo{
+        flex-direction: column;
+        display: flex;
+        margin-left: 50px;
+    }
+  }
+  @media screen and (max-width: 988px){
+    .parrafosval{
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 988px){
+    .title1{
+        margin-left: 50px;
+        margin-top: 50px;
+        
+    }
+  }
+
+  @media screen and (max-width: 988px){
+    .equipo2{
+        width: 300px;
+        height: 250px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+  }
+  
