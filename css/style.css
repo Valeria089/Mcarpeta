@@ -4,32 +4,19 @@ Rosado:#F3A69D
 color2:#f6bb8d
 Anaranjado:#f8d7ae
 */
+
 @font-face {
     font-family: 'cream';
     src: url(../assets/Pacifico-Regular.ttf);
 }
 
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-/*header
-.barrademenu {
-    background-color:#f8d7ae;
-    display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 20px 35px #0001;
-    
-    fixed
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-}*/
 
-
-.logo
+.header__logo
 {
     height: 80px;
     width: 80px;
@@ -63,141 +50,77 @@ li a.active,li a:hover{
 }
 
 /* main*/
-.contenedor{
+.contenido{
     text-align: center;
 }
     
 
-.title{
+.contenido__title{
     font-family: 'cream';
     color: #F3A69D;
     font-size: 50px;
     margin-bottom: 20px;
     margin-top: 20px;
     }
-.primeraimagen{
+.contenido__primeraimagen{
 height: 1000px;
 }
 .p{
     font-size: 20px
 }
 
-.pastelcontenido{
+.contenido__pastelcontenido{
     height: 500px;
     width: 400px;
     margin-bottom: 30px;
 }
-/*.pastelcontenido3{
-    height: 500px;
-    width: 400px;
-}
-.pastelcontenido4{
-    height: 500px;
-    width: 400px;
-}
+
 /*footer*/
-footer{
+.pie__contenido{
     background-color: #f8d7ae;
     color: white;
     font-weight: 400;
     text-align: center;
+    margin-top: 50px;
     
-}
-/*productos*/
-.productos{
-flex-direction: column;
-align-items:center;
-padding-top: 70px;
-
-}
-.productos h3{
-    font-family: 'cream';
-    color: #F3A69D;
-    font-size: 30px;
-    text-align: center;
-
-}
-
-.parrafo{
-    font-size: 1em;
-}
-.productos--cont{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-
-
-}
-.item-img{
-    width: 410px;
-    height: 470px;
-    overflow: hidden;
-    padding: 30px;
-}
-.item-img img{
-width: 100%;
-}
-.item-img h4 {
-    font-size: 10px;
-}
-.imgproducto{
-    max-width: 350px;
-    height: 310px;
 }
 
 /*NOSOTROS*/
-.quienessomos1{
+.nosotros{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 30px;
 }
 
-.equipo{
+.nosotros__equipo{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 
 }
 
-.equipo2{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-
-}
- .parrafosval{
+ .nosotros__parrafosval{
     display: flex;
     background-color: #fbe1cd;
  }
- .p1{
+ .nosotros__p1{
     margin: 20px;
     margin-bottom: 40px;
     
 
  }
-.p2{
+.nosotros__p2{
     margin: 20px;
     margin-bottom: 40px;
 
 }
-.p3{
+.nosotros__p3{
     margin: 20px;
     margin-bottom: 40px;
 }
 
-.contenedorequipo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.equipo2{
-    margin-bottom: 40px;
-    margin-top: 40px;
-    width: 650px;
-    height: 600px;
-}
-.title1{
+.nosotros__title1{
     margin-top: 20px;
     margin-bottom: 30px;
     margin-right: 80px;
@@ -205,6 +128,46 @@ width: 100%;
     color: #F3A69D;
     margin-left: 80px
 }
+/*productos*/
+.productos{
+    flex-direction: column;
+    align-items:center;
+    padding-top: 70px;
+    
+    }
+    .productos__h3{
+        font-family: 'cream';
+        color: #F3A69D;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    
+    .parrafo{
+        font-size: 1em;
+    }
+    .productos__cont{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    
+   
+    }
+    .item__img{
+        width: 410px;
+        height: 470px;
+        overflow: hidden;
+        padding: 30px;
+    }
+    .item__img img{
+    width: 100%;
+    }
+    
+    .img__producto{
+        max-width: 350px;
+        height: 310px;
+    }
+
 /*PROMOCIONES*/
 
 .promociones{
@@ -215,20 +178,20 @@ width: 100%;
     }
 
 
-.promociones--cont{
+.promociones__cont{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 
 
 }
-.prom-img{
+.promociones__img{
     width: 410px;
     height: 470px;
     overflow: hidden;
     padding: 30px;
 }
-.prom-img img{
+.promociones__img img{
 width: 100%;
 }
 
@@ -237,42 +200,66 @@ width: 100%;
     height: 310px;
 }
 
-.ppromo {
+.promociones__p {
     margin-top: 30px;
     margin-left: 30px;
 }
 
+/*Media querin*/
+
 @media screen and (max-width: 988px)
  {
-   .primeraimagen
+   .contenido__primeraimagen
    {width: 600px;
     height: 500px !important;
 margin-bottom: 20px;} 
   }
   
-  @media screen and (max-width: 988px){
-    .equipo{
+  /*@media screen and (max-width: 988px){
+    .nosotros__equipo{
     width: 400px;
     height: 300px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    
     }
   }
   @media screen and (max-width: 988px)
   {
-    .contenedorequipo{
+    .nosotros{
         flex-direction: column;
         display: flex;
-        margin-left: 50px;
+        margin-left: 30px;
     }
   }
   @media screen and (max-width: 988px){
-    .parrafosval{
+    .nosotros__parrafosval{
         flex-direction: column;
     }
   }
   @media screen and (max-width: 988px){
-    .title1{
+    .nosotros__title1{
+        margin-left: 50px;
+        margin-top: 50px;
+        
+    }
+  }*/
+  @media screen and (max-width: 988px){
+    
+    .nosotros{
+        flex-direction: column;
+        display: flex;
+        margin-left: 30px;
+    }
+    .nosotros__equipo{
+        width: 400px;
+        height: 300px;
+        
+        }
+ 
+    .nosotros__parrafosval{
+        flex-direction: column;
+    }
+
+    .nosotros__title1{
         margin-left: 50px;
         margin-top: 50px;
         
@@ -280,12 +267,11 @@ margin-bottom: 20px;}
   }
 
   @media screen and (max-width: 988px){
-    .equipo2{
-        width: 300px;
-        height: 250px;
-        margin-right: 50px;
-        margin-bottom: 50px;
-        margin-top: 40px;
+    .col-md-12 {
+        flex-direction: column;
     }
+  }
+  @media screen and (max-width: 988px){
+    .col-md-6{ margin-left: 50px;}
   }
   

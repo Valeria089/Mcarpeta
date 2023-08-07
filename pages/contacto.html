@@ -14,11 +14,12 @@
 </head>
 
 <body>
+  <header>
     <!---Esto es un encabezado-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#f8d7ae !important;">
             <div class="container-fluid">
               <a class="navbar-brand" href="./index.html">
-              <img class="logo" src="../assets/Logo definitivo.png" alt="logo de pasteleria">
+              <img class="header__logo" src="../assets/Logo definitivo.png" alt="logo de pasteleria">
             </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,9 +47,10 @@
               </div>
             </div>
           </nav>
+        </header>
     <main> <!--esto es el cuerpo principal de mi proyecto-->
         <section>
-          <h1 class="title" style="text-align: center;">Para hacer tu pedido ...</h1>
+          <h1 class="contenido__title" style="text-align: center;">Para hacer tu pedido ...</h1>
           <div class=" col-md-12 container" style="display: flex;">
   
                 <div class="col-md-6">
@@ -58,18 +60,14 @@
                   <input type="Nombre" class="form-control" id="name" placeholder="Escribe tu nombre">
                 </div>
 
-
                 <div class="col12">
                   <label for="CorreoInput1" class="form-label">Correo</label>
                   <input type="Correo" class="form-control" id="correo" placeholder="Escribe tu correo">
                 </div>
-
-
                 <div class="col12">
                   <label for="Númerodecontacto" class="form-label">Número de contacto</label>
                   <input type="Númerodecontacto" class="form-control" id="numero" placeholder="Escribe tu número de contacto">
                 </div>
-
 
                 <div class="mb-3">
                   <label for="FormControlTextarea1" class="form-label">Tu mensaje</label>
@@ -77,22 +75,20 @@
                 </div>
               
                 <div class="d-grid gap-2 d-md-block">
-                  <button class="btn btn-danger" type="button">Button</button>
+                  <button class="btn btn-danger" type="button" style="margin-bottom: 20px;">Enviar</button>
                 </div>
               </form>
                </div>
                <div class="col-md-6">
-                <img src="../assets/fondo hader.jpg" style="width: 400px; height: 350px; margin-left: 120px ;"  alt="fondo">
+                <img src="../assets/img-contacto.jpg" style="width: 400px; height: 350px; margin-left: 50px ;"  alt="fondo">
               </div>
 
               </div> 
         </section>
-      
-       
-    </main>
+      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <footer> <!--enlaces a las redes sociales, copy-->
-        <div>
+    <footer class="pie__contenido"> <!--enlaces a las redes sociales, copy-->
+        <div class="pie__1">
             <h2>Síguenos en:</h2>
             <a href="instagram "><img src="../assets/instagram.png" alt="instagram"></a>
             <a href="facebook"><img src="../assets/facebook.png" alt="facebook"></a>

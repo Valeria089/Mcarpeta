@@ -1,0 +1,25 @@
+.contenido{
+    text-align: center;
+
+    
+
+&__title{
+    font-family: $fontcream !important;
+    color:$titulo;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+&__primeraimagen{
+height: 1000px;
+}
+p{
+    font-size: 20px
+}
+
+&__pastelcontenido{
+    height: 500px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+}

@@ -1,0 +1,43 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+
+
+&__equipo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+ &__parrafosval {
+    display: flex;
+    background-color:$rosadoclaro;
+ }
+ &__p1{
+    margin: 20px;
+    margin-bottom: 40px;
+    
+
+ }
+ &__p2{
+    margin: 20px;
+    margin-bottom: 40px;
+
+}
+&__p3{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+&__title1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    font-family: $fontcream;
+    color: $titulo;
+    margin-left: 80px
+}
+}

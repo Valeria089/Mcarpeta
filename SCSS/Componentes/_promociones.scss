@@ -1,0 +1,36 @@
+
+/*PROMOCIONES*/
+
+.promociones{
+    flex-direction: column;
+    align-items:center;
+    padding-top: 30px;
+    
+&__cont{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+
+
+}
+&__img{
+    width: 410px;
+    height: 470px;
+    overflow: hidden;
+    padding: 30px;
+}
+&__img img{
+width: 100%;
+}
+
+ .imgpromo{
+    max-width: 350px;
+    height: 310px;
+}
+
+&__p {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+}
