@@ -1,7 +1,5 @@
 .nosotros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include disp-fle-ali;
     padding: 0px 30px;
 
 

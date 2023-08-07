@@ -8,8 +8,8 @@ Almacenar información en una palabra clave*/
 }
 
 .header__logo {
-  height: 80px;
   width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin-left: 20px;
 }
@@ -58,8 +58,8 @@ li a.active, li a:hover {
   font-size: 20px;
 }
 .contenido__pastelcontenido {
-  height: 500px;
   width: 400px;
+  height: 400px;
   margin-bottom: 30px;
 }
 
@@ -175,8 +175,8 @@ li a.active, li a:hover {
 /*Media querin*/
 @media screen and (max-width: 988px) {
   .contenido__primeraimagen {
-    width: 600px;
-    height: 500px !important;
+    width: 500px;
+    height: 400px !important;
     margin-bottom: 20px;
   }
 }

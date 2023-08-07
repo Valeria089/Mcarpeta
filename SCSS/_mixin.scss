@@ -1,2 +1,18 @@
 //Mixin reutilizar
 //@misin @include
+@mixin disp-fle-ali {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin dis-wrap-juscent {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+
+@mixin w-h ($w, $h) {
+    width: $w;
+    height:$h;
+}

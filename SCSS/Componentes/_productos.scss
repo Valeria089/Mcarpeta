@@ -25,8 +25,7 @@
     }
 }
     .item__img{
-        width: 410px;
-        height: 470px;
+        @include w-h (410px,470px);
         overflow: hidden;
         padding: 30px;
     }

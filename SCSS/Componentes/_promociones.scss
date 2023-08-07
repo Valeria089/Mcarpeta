@@ -7,16 +7,12 @@
     padding-top: 30px;
     
 &__cont{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-
+    @include dis-wrap-juscent;
 
 
 }
 &__img{
-    width: 410px;
-    height: 470px;
+    @include w-h (410px,470px);
     overflow: hidden;
     padding: 30px;
 }
