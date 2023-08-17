@@ -135,16 +135,18 @@ height: 1000px;
     padding-top: 70px;
     
     }
-    .productos__h3{
+    .productos__h1{
         font-family: 'cream';
         color: #F3A69D;
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     
     }
     
     .parrafo{
         font-size: 1em;
+        margin-top: 20px;
+        margin-left: 100px;
     }
     .productos__cont{
         display: flex;
@@ -202,10 +204,13 @@ width: 100%;
 
 .promociones__p {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 105px;
 
 }
-
+.promociones__p1{
+    margin-top: 10px;
+    margin-left: 120px;
+}
 /*Media querin*/
 
 @media screen and (max-width: 988px)

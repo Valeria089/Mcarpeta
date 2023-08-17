@@ -104,14 +104,16 @@ li a.active, li a:hover {
   align-items: center;
   padding-top: 70px;
 }
-.productos__h3 {
+.productos__h1 {
   font-family: "cream";
   color: #F3A69D;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 .productos .parrafo {
   font-size: 1em;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 .productos__cont {
   display: flex;
@@ -160,8 +162,12 @@ li a.active, li a:hover {
   height: 310px;
 }
 .promociones__p {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 105px;
+}
+.promociones__p1 {
+  margin-top: 10px;
+  margin-left: 120px;
 }
 
 .pie__contenido {
