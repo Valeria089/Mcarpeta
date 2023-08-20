@@ -3,25 +3,25 @@
 @media screen and (max-width: 980px)
  {
    .contenido__primeraimagen
-   {width: 500px;
+   {width: 400px;
     height: 400px !important;
-margin-bottom: 20px;} 
+    margin-bottom: 20px;} 
   }
   .nosotros{
     flex-direction: column;
     display: flex;
    margin-left: 30px;
  
- &__equipo{
-   @include w-h (400px,300px);
+   &__equipo{
+   @include w-h (300px,300px);
      
      }
 
- &__parrafosval{
-     flex-direction: column;
+   &__parrafosval{
+  flex-direction: column;
  }
 
- &__title1{
+   &__title1{
      margin-left: 50px;
      margin-top: 50px;
      

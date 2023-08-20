@@ -74,6 +74,8 @@ li a.active, li a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  width: 300px !important;
+  height: 300px !important;
 }
 .nosotros__parrafosval {
   display: flex;
@@ -188,7 +190,7 @@ li a.active, li a:hover {
 /*Media querin*/
 @media screen and (max-width: 980px) {
   .contenido__primeraimagen {
-    width: 500px;
+    width: 400px;
     height: 400px !important;
     margin-bottom: 20px;
   }
@@ -199,7 +201,7 @@ li a.active, li a:hover {
   margin-left: 30px;
 }
 .nosotros__equipo {
-  width: 400px;
+  width: 300px;
   height: 300px;
 }
 .nosotros__parrafosval {
