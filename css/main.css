@@ -194,35 +194,32 @@ li a.active, li a:hover {
     height: 400px !important;
     margin-bottom: 20px;
   }
-}
-.nosotros {
-  flex-direction: column;
-  display: flex;
-  margin-left: 30px;
-}
-.nosotros__equipo {
-  width: 300px;
-  height: 300px;
-}
-.nosotros__parrafosval {
-  flex-direction: column;
-}
-.nosotros__title1 {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-.col-md-12 {
-  flex-direction: column;
-}
-
-.col-md-6 {
-  margin-left: 120px;
-}
-
-.col-md-6_contacto {
-  width: 300px;
-  height: 320px;
+  .nosotros {
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+  }
+  .nosotros__equipo {
+    width: 300px;
+    height: 300px;
+  }
+  .nosotros__parrafosval {
+    flex-direction: column;
+  }
+  .nosotros__title1 {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .col-md-12 {
+    flex-direction: column;
+  }
+  .col-md-6 {
+    margin-left: 120px;
+  }
+  .col-md-6_contacto {
+    width: 300px;
+    height: 320px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

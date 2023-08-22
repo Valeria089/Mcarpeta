@@ -1,0 +1,13 @@
+@import "./vars";
+@import "./reset";
+@import "./mixin";
+
+//Layout
+@import "./layout";
+@import "./componentes/contenido";
+@import "./componentes/nosotros";
+@import "./componentes/productos";
+@import"./componentes/promociones";
+@import"./componentes/footer";
+// Media queries
+@import "./mq"
