@@ -4,8 +4,8 @@ Almacenar información en una palabra clave*/
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
-  font-family: "cream";
+  font-family: "Roboto", sans-serif;
+  font-family: "Pacifico", cursive;
 }
 
 .header__logo {
@@ -35,6 +35,7 @@ nav ul li a {
   padding: 30px;
   border-radius: 2px;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 
 li a.active, li a:hover {
@@ -46,7 +47,7 @@ li a.active, li a:hover {
   text-align: center;
 }
 .contenido__title {
-  font-family: "cream" !important;
+  font-family: "Pacifico", cursive !important;
   color: #F3A69D;
   font-size: 50px;
   margin-bottom: 20px;
@@ -74,8 +75,8 @@ li a.active, li a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  width: 300px !important;
-  height: 300px !important;
+  width: 400px;
+  height: 400px;
 }
 .nosotros__parrafosval {
   display: flex;
@@ -97,7 +98,7 @@ li a.active, li a:hover {
   margin-top: 20px;
   margin-bottom: 30px;
   margin-right: 80px;
-  font-family: "cream";
+  font-family: "Roboto", sans-serif;
   color: #F3A69D;
   margin-left: 80px;
 }
@@ -108,7 +109,7 @@ li a.active, li a:hover {
   padding-top: 70px;
 }
 .productos__h1 {
-  font-family: "cream";
+  font-family: "Pacifico", cursive;
   color: #F3A69D;
   font-size: 40px;
   text-align: center;
@@ -185,6 +186,7 @@ li a.active, li a:hover {
   font-weight: 400;
   text-align: center;
   margin-top: 50px;
+  font-family: "cream" !important;
 }
 
 /*Media querin*/
@@ -200,8 +202,8 @@ li a.active, li a:hover {
     margin-left: 30px;
   }
   .nosotros__equipo {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .nosotros__parrafosval {
     flex-direction: column;
